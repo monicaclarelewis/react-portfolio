@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/home.css"
 
 function Home() {
     return (
@@ -6,7 +7,7 @@ function Home() {
         <div className="jumboCopy" id="jumboText">
         <h1 className="display-4">Monica Lewis</h1>
         <p className="lead">Welcome to my front-end web development portfolio!</p>
-        <img src={require('./images/profile.png')} alt="" />
+        <img id="me" src={require('./images/profile.png')} alt="" />
         </div>
     </div>
     );
