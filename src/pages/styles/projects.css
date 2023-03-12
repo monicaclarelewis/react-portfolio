@@ -1,0 +1,19 @@
+#projectContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.workCard {
+    padding: 10px;
+    margin: 5px;
+    width: 20vh;
+    text-align: center;
+}
+
+.projectImage {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+}
+
