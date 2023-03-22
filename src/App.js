@@ -1,28 +1,26 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Nav from './components/Nav';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import ProjectPage from './pages/ProjectPage';
+import "./App.css"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Navbar from "./components/Navbar";
+import ProjectDisplay from "./pages/ProjectDisplay";
 
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Nav />
-        {/* Wrap Route elements in a Routes component */}
+    <div className="App">
+      <Router>
+        <Navbar />
         <Routes>
-          {/* Define routes using the Route component to render different page components at different paths */}
-          {/* Define a default route that will render the Home component */}
-          <Route path="Home" element={<Home />} />
-          <Route path="Contact" element={<Contact />} />
-          <Route path="ProjectPage" element={<ProjectPage />} />
-          {/* Define a route that will have descendant routes */}
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<ProjectDisplay />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
-    </Router>
-  );
+      </Router>
+    </div>
+  )
 }
 
 export default App;
