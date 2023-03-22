@@ -12,7 +12,6 @@ function Contact(){
       <Link to="https://www.linkedin.com/in/monica-lewis-54811387/" role="button" className="btn btn-link">
         LinkedIn
       </Link>
-
       <Link to="https://github.com/monicaclarelewis" role="button" className="btn btn-link">
         GitHub
       </Link>
