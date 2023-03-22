@@ -1,6 +1,10 @@
-.myNav {
+.navbar-custom {
     width: 100%;
-    height: 65px;
+    height: 55px;
+}
+
+.myNav {
+    background-color: green important!;
 }
 
 .links {

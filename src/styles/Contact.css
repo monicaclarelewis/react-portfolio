@@ -1,0 +1,9 @@
+.contact {
+    background-color: rgb(209, 222, 230);
+    background-size: cover;
+    min-height: 700px;
+}
+
+.contactHeading {
+    padding-top: 20px;
+}
