@@ -5,5 +5,16 @@
 }
 
 .contactHeading {
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+}
+
+p {
+    font-size: 20px;
+    padding-bottom: 20px;
 }
