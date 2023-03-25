@@ -10,7 +10,7 @@ function Home() {
                     <div className="lead">
                         <p>Welcome to my front-end web development portfolio!</p>
                     </div>
-                    <img id="me" src={require('../assets/profile.png')} alt="" />
+                    <img id="me" src={require('../assets/profile.png')} alt="me" />
                 </div>
             </div>
         </div>

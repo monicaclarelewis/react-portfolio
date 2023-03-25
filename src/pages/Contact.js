@@ -20,7 +20,7 @@ function Contact(){
           Get in touch via email
         </Link>
       </ul>
-      <img id="logo" src={require('../assets/Logo.png')} alt="" />
+      <img id="logo" src={require('../assets/Logo.png')} alt="logo" />
     </div>
   )
 }
