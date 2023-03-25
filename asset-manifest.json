@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/monicaclarelewis/react-portfolio/static/css/main.5b1a778e.css",
-    "main.js": "/monicaclarelewis/react-portfolio/static/js/main.a29f9a4e.js",
+    "main.js": "/monicaclarelewis/react-portfolio/static/js/main.26678ff1.js",
     "static/js/787.a2cb61a6.chunk.js": "/monicaclarelewis/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/travelApp.png": "/monicaclarelewis/react-portfolio/static/media/travelApp.3de18aa734eaca5ae4fe.png",
     "static/media/bsPortfolio.png": "/monicaclarelewis/react-portfolio/static/media/bsPortfolio.a1b1ca1a3f57fd3fd5af.png",
@@ -14,11 +14,11 @@
     "static/media/Logo.png": "/monicaclarelewis/react-portfolio/static/media/Logo.ff72eec44fe6a6351cb0.png",
     "index.html": "/monicaclarelewis/react-portfolio/index.html",
     "main.5b1a778e.css.map": "/monicaclarelewis/react-portfolio/static/css/main.5b1a778e.css.map",
-    "main.a29f9a4e.js.map": "/monicaclarelewis/react-portfolio/static/js/main.a29f9a4e.js.map",
+    "main.26678ff1.js.map": "/monicaclarelewis/react-portfolio/static/js/main.26678ff1.js.map",
     "787.a2cb61a6.chunk.js.map": "/monicaclarelewis/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b1a778e.css",
-    "static/js/main.a29f9a4e.js"
+    "static/js/main.26678ff1.js"
   ]
 }
